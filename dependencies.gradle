@@ -34,5 +34,8 @@
  * For more details, see https://docs.gradle.org/8.0.1/userguide/java_library_plugin.html#sec:java_library_configurations_graph
  */
 dependencies {
-    //runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.7.69-GTNH:dev")
+    compileOnly("io.github.legacymoddingmc:unimixins:0.1.23:dev")
+    compileOnly("com.github.GTNewHorizons:BetterQuesting:3.8.71-GTNH:dev")
+    compileOnly("com.cubefury.vendingmachine:VendingMachine:0.4.95:dev")
+    shadowImplementation("com.github.luben:zstd-jni:1.5.7-7")
 }
